@@ -1,0 +1,7 @@
+Resources:
+  MyFirstOSCF:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId : ami-05db93
+      InstanceType: t2.micro
+      AvailabiltiyZone: ap-south-1a
