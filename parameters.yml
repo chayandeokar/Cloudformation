@@ -1,0 +1,12 @@
+Parameters:
+  x:
+    Type: String
+    Description: this is variable
+
+Resources:
+  MyFirstOSCF:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId : ami-05db93
+      InstanceType: !Ref x
+      AvailabiltiyZone: ap-south-1a
